@@ -1,0 +1,5 @@
+npm install react-router-dom
+npm install node-sass --save
+npm install --save react-use-gesture
+npm install react-spring
+npm install @fullpage/react-fullpage
