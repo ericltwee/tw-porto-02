@@ -17,13 +17,9 @@ const App = () => (
         <ReactFullpage.Wrapper>
           <div className="section q1">
             <Home />
-            {/* <h1>Section 1 (welcome to fullpage.js)</h1>
-            <button onClick={() => fullpageApi.moveSectionDown()}>
-              Click me to move down
-            </button> */}
           </div>
           <div className="section w2">
-            <h1>Slide 2 : profile</h1>
+            <Profile />
           </div>
           <div className="section e3">
             <div className="slide">

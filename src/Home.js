@@ -2,6 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 import spin from "./spinn.png";
 import "./App.css";
+import HoverImage from "react-hover-image";
 
 // import Profile from "./parts/profile";
 // import History from "./parts/history";
@@ -12,12 +13,8 @@ function Home() {
   return (
     <div className="App">
       <header className="App-header">
-        <img
-          src={logo}
-          onMouseOver={(e) => (e.currentTarget.src = { spin })}
-          className="App-logo"
-          alt="logo"
-        />
+        <HoverImage className="App-logo" src={logo} hoverSrc={spin} />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
