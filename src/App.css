@@ -1,11 +1,10 @@
 .section {
   text-align: center;
-  background-color: #14171b;
+  background-color: #141b18;
 }
 
 .App-logo {
   height: 40vmin;
-  /* pointer-events: none; */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -15,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #14171b;
+  background-color: #141b18;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -37,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+/* @media only screen and (min-width: 768px) {
+  .fp-controlArrow {
+    display: none;
+  }
+} */

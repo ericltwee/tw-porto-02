@@ -1,0 +1,16 @@
+img {
+  justify-content: center;
+  height: 40vh;
+}
+
+.textBox {
+  color: #80ff80;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .col-7 {
+    max-width: none;
+    margin-top: 4rem;
+  }
+}

@@ -1,19 +1,15 @@
 import React from "react";
 import avatar from "../circle-greenprofile.png";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./profile.css";
 
 const Profile = () => {
-  const styling = {
-    height: "50vh",
-    color: "#80ff80",
-  };
-
   return (
     <div className="row justify-content-center m-0">
-      <div style={styling} className="col-md-5 col-7 my-auto">
-        <img style={styling} src={avatar} />
+      <div className="col-md-5 col-7 my-auto profilePic">
+        <img src={avatar} alt="logo" />
       </div>
-      <div style={styling} className="col-md-5 col-7 my-auto">
+      <div className="col-md-5 col-7 textBox">
         <p>
           Transitioning from 1yr of hoteling + 8yrs of cafe mangement into the
           world of web development.

@@ -30,6 +30,22 @@ const App = () => (
             </div>
             <div class="fp-controlArrow fp-prev"></div>
             <div class="fp-controlArrow fp-next"></div>
+            <div class="fp-slidesNav fp-bottom">
+              <ul>
+                <li>
+                  <a href="#">
+                    <span class="fp-sr-only">fullPage</span>
+                    <span></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="fp-sr-only">Open</span>
+                    <span></span>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
           <div className="section r4">
             <h1>Slide 4 : Skills</h1>
