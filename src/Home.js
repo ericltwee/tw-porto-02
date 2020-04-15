@@ -14,23 +14,13 @@ function Home() {
     <div className="App">
       <header className="App-header">
         <HoverImage className="App-logo" src={logo} hoverSrc={spin} />
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          // href="https://reactjs.org"
-          // target="_blank"
-          // rel="noopener noreferrer"
-        >
-          Learn React
+        <a className="App-link lax" data-lax-opacity="0 1, (vh*0.05) 0">
+          Scroll Down
         </a>
       </header>
-      {/* <Profile />
-      <History />
-      <Skills />
-      <Contact /> */}
     </div>
   );
 }

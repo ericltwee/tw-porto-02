@@ -5,3 +5,5 @@ npm install react-spring
 npm install @fullpage/react-fullpage
 npm install react-hover-image
 npm install react-bootstrap bootstrap
+npm install lax.js
+npm install use-lax
