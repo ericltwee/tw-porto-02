@@ -12,6 +12,18 @@ const App = () => (
   <ReactFullpage
     navigation={true}
     scrollingSpeed={1000} /* Options here */
+    navigationTooltips={[
+      "Home",
+      "Profile",
+      "History",
+      "Skills",
+      "Projects",
+      "Contact",
+    ]}
+    showActiveTooltip={true}
+    controlArrows={false}
+    slidesNavigation={true}
+    slideTooltips={["Work Experience", "Education background"]}
     render={({ state, fullpageApi }) => {
       return (
         <ReactFullpage.Wrapper>
@@ -23,12 +35,12 @@ const App = () => (
           </div>
           <div className="section e3">
             <div className="slide">
-              <h1>Slide 3: History</h1>
+              <h1>Slide 3: Working Experience</h1>
             </div>
             <div className="slide">
-              <h1>Slide 3.2: History</h1>
+              <h1>Slide 3.2: Education Background</h1>
             </div>
-            <div class="fp-controlArrow fp-prev"></div>
+            {/* <div class="fp-controlArrow fp-prev"></div>
             <div class="fp-controlArrow fp-next"></div>
             <div class="fp-slidesNav fp-bottom">
               <ul>
@@ -45,7 +57,7 @@ const App = () => (
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
           <div className="section r4">
             <h1>Slide 4 : Skills</h1>

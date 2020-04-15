@@ -42,3 +42,14 @@
     display: none;
   }
 } */
+
+#fp-nav ul li .fp-tooltip {
+  color: #80ff80 !important;
+}
+
+#fp-nav ul li:hover a.active span,
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li:hover a.active span,
+.fp-slidesNav ul li a.active span {
+  background-color: #80ff80;
+}
