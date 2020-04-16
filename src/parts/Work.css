@@ -1,0 +1,17 @@
+.wallword {
+  position: absolute;
+  bottom: 8px;
+  right: 100vw;
+  font-size: 9rem;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#141b18, rgb(44, 52, 44));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: -1;
+}
+
+.workcard {
+  border: solid 1px green;
+  height: 70vh;
+  margin: 1em;
+}

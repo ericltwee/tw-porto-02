@@ -3,6 +3,7 @@ import "./App.css";
 import Home from "./Home";
 import Profile from "./parts/profile";
 import Work from "./parts/Work";
+import School from "./parts/School";
 import Skills from "./parts/skills";
 import Projects from "./parts/Projects";
 import Contact from "./parts/contact";
@@ -37,11 +38,14 @@ const App = () => {
               <Profile />
             </div>
             <div className="section e3">
-              <Work />
               <div className="slide">
+                ert
                 <Work />
               </div>
-              <div className="slide">ssss</div>
+              <div className="slide">
+                hjk
+                <School />
+              </div>
             </div>
             <div className="section r4">
               <Skills />

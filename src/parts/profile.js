@@ -22,7 +22,7 @@ const Profile = () => {
           <p>Let's make things FANCY!</p>
         </div>
       </div>
-      <h1 className="wallText">Profile</h1>
+      <h1 className="wallText">PROFILE</h1>
     </>
   );
 };

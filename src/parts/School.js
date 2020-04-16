@@ -1,8 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import "./Work.css";
 
-const Work = () => {
+const School = () => {
   return (
     <div>
       <Container className="workbox">
@@ -18,10 +17,9 @@ const Work = () => {
           </Col>
         </Row>
       </Container>
-
-      <h1 className="wallword">EXPERIENCE</h1>
+      <h1 className="wallText">EDUCATION</h1>
     </div>
   );
 };
 
-export default Work;
+export default School;
