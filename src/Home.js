@@ -18,7 +18,7 @@ function Home() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a className="App-link lax" data-lax-opacity="0 1, (vh*0.05) 0">
-          Scroll Down
+          Scroll Down <i class="fas fa-arrow-circle-down pulse"></i>
         </a>
       </header>
     </div>

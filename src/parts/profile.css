@@ -5,6 +5,7 @@ img {
 
 .textBox {
   color: #80ff80;
+  z-index: 1;
 }
 
 @media only screen and (max-width: 768px) {
@@ -13,4 +14,12 @@ img {
     max-width: none;
     margin-top: 4rem;
   }
+}
+
+.wallText {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 9rem;
+  font-weight: bold;
 }

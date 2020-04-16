@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
-import { Route } from "react-router-dom";
 import Home from "./Home";
 import Profile from "./parts/profile";
-import History from "./parts/history";
+import Work from "./parts/Work";
 import Skills from "./parts/skills";
+import Projects from "./parts/Projects";
 import Contact from "./parts/contact";
 import ReactFullpage from "@fullpage/react-fullpage";
 import { useLax } from "use-lax";
@@ -37,21 +37,20 @@ const App = () => {
               <Profile />
             </div>
             <div className="section e3">
+              <Work />
               <div className="slide">
-                <h1>Slide 3: Working Experience</h1>
+                <Work />
               </div>
-              <div className="slide">
-                <h1>Slide 3.2: Education Background</h1>
-              </div>
+              <div className="slide">ssss</div>
             </div>
             <div className="section r4">
-              <h1>Slide 4 : Skills</h1>
+              <Skills />
             </div>
             <div className="section t5">
-              <h1>Slide 5: Project</h1>
+              <Projects />
             </div>
             <div className="section y6">
-              <h1>Slide 6 : Contact</h1>
+              <Contact />
             </div>
           </ReactFullpage.Wrapper>
         );
