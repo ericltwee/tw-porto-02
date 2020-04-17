@@ -39,11 +39,9 @@ const App = () => {
             </div>
             <div className="section e3">
               <div className="slide">
-                ert
                 <Work />
               </div>
               <div className="slide">
-                hjk
                 <School />
               </div>
             </div>

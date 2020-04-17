@@ -17,7 +17,7 @@ function Home() {
           alt="asdf"
           data-lax-opacity="0 1, (vh*0.05) 0"
         >
-          Scroll Down <i class="fas fa-arrow-circle-down pulse"></i>
+          Scroll Down <i class="fas fa-arrow-circle-down"></i>
         </a>
       </header>
     </div>

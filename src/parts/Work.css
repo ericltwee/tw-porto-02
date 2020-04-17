@@ -11,7 +11,19 @@
 }
 
 .workcard {
-  border: solid 1px green;
-  height: 70vh;
+  border: solid 1px #80ff80;
+  height: 50vh;
   margin: 1em;
+  z-index: 1;
+  color: #80ff80;
+}
+
+@media only screen and (max-width: 768px) {
+  .wallword {
+    font-size: 3.5rem;
+  }
+
+  .workcard {
+    height: auto;
+  }
 }

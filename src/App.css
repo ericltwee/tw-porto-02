@@ -53,3 +53,15 @@
 .fp-slidesNav ul li a.active span {
   background-color: #80ff80;
 }
+
+i {
+  color: #80ff80;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -8,13 +8,32 @@ const Work = () => {
       <Container className="workbox">
         <Row>
           <Col sm className="workcard">
-            loremx20
+            <p>Manager</p>
+            <p>Secret Recipe Cakes & Cafes, Malaysia</p>
+            <p>
+              Cafe Manager of a franchise outlet in the KlangValley.
+              Responsibilities include staff management, task delegations,
+              recruitment & training, inventory & stock management, overseeing
+              product quality, service standards and business performance.
+            </p>
           </Col>
           <Col sm className="workcard">
-            sm=4
+            <p>Butler</p>
+            <p>Marina Bay Sands, Singapore</p>
+            <p>
+              Assigned as a main point of contact for guests throughout their
+              stay. Providing personalized service while working/coordinating
+              with other hotel departments. Trained to be a "jack of all
+              trades".
+            </p>
           </Col>
           <Col sm className="workcard">
-            sm=true
+            <p>Intern</p>
+            <p>Club Med Cherating, Malaysia</p>
+            <p>
+              6 months internship in various departments within the
+              resort.Housekeeping, Front-desk, Restaurants, and the Bar.
+            </p>
           </Col>
         </Row>
       </Container>
