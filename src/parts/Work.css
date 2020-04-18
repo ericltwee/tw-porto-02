@@ -4,26 +4,63 @@
   right: 100vw;
   font-size: 9rem;
   font-weight: bold;
-  background: -webkit-linear-gradient(#141b18, rgb(44, 52, 44));
+  background: -webkit-linear-gradient(#141b18, rgb(0, 0, 0));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   z-index: -1;
 }
 
 .workcard {
+  padding: 1rem;
   border: solid 1px #80ff80;
-  height: 50vh;
-  margin: 1em;
+  border-radius: 15px;
+  display: flex;
+  margin: 2em;
   z-index: 1;
   color: #80ff80;
+  height: 29%;
+  background-color: #141b18;
 }
 
+.workside {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.worktitle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.workdetails {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 @media only screen and (max-width: 768px) {
   .wallword {
     font-size: 3.5rem;
   }
 
+  .descript {
+    display: none;
+  }
+
+  .worktitle {
+    display: inline;
+    font-size: x-small;
+  }
+
   .workcard {
-    height: auto;
+    border: transparent;
+  }
+
+  .workplace {
+    font-size: small;
+  }
+
+  .workdetails {
+    display: flex;
+    align-items: center;
   }
 }

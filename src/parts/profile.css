@@ -21,7 +21,7 @@ img {
   right: 16px;
   font-size: 8rem;
   font-weight: bold;
-  background: -webkit-linear-gradient(#141b18, rgb(44, 52, 44));
+  background: -webkit-linear-gradient(#141b18, rgb(0, 0, 0));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
