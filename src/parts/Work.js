@@ -17,7 +17,7 @@ const Work = () => {
           <div className="workdetails">
             <div className="worktitle">
               <h3 className="workplace">Secret Recipe, Malaysia</h3>
-              <p>Nov 2011 -Nov 2019</p>
+              <p className="workdate">Nov 2011 -Nov 2019</p>
             </div>
             <p className="descript">
               Cafe Manager of a franchise outlet in the KlangValley.
@@ -36,7 +36,7 @@ const Work = () => {
           <div className="workdetails">
             <div className="worktitle">
               <h3 className="workplace">Marina Bay Sands, Singapore</h3>
-              <p>Jan - Jun 2011</p>
+              <p className="workdate">Jan - Jun 2011</p>
             </div>
             <p className="descript">
               Assigned as a main point of contact for guests throughout their
@@ -54,7 +54,7 @@ const Work = () => {
           <div className="workdetails">
             <div className="worktitle">
               <h3 className="workplace">Club Med Cherating, Malaysia</h3>
-              <p>Jan - Jun 2010</p>
+              <p className="workdate">Jan - Jun 2010</p>
             </div>
             <p className="descript">
               6 months internship in various departments within the resort. Area

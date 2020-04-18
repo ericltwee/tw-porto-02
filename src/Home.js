@@ -12,13 +12,9 @@ function Home() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link lax"
-          alt="asdf"
-          data-lax-opacity="0 1, (vh*0.05) 0"
-        >
+        <p className="App-link lax" alt="asdf">
           Scroll Down <i class="fas fa-arrow-circle-down"></i>
-        </a>
+        </p>
       </header>
     </div>
   );
