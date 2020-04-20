@@ -1,0 +1,22 @@
+.contactbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 5rem;
+}
+.contactinfo {
+  display: flex;
+  color: #80ff80;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .contactbox {
+    flex-direction: column;
+    padding-top: 0;
+  }
+
+  .contactinfo {
+    justify-content: center;
+  }
+}
