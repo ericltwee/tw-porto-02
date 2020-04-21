@@ -1,10 +1,10 @@
 .wallword {
   position: absolute;
   bottom: 8px;
-  right: 100vw;
+  right: 105vw;
   font-size: 9rem;
   font-weight: bold;
-  background: -webkit-linear-gradient(#141b18, rgb(0, 0, 0));
+  background: -webkit-linear-gradient(#141b18, rgb(12, 95, 32));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   z-index: -1;
@@ -18,18 +18,13 @@
   margin: 2em;
   z-index: 1;
   color: #80ff80;
-  background-color: #141b18;
+  background-color: #141b18e7;
 }
 
 .workside {
   margin-top: auto;
   margin-bottom: auto;
 }
-
-/* .worktitle {
-  display: flex;
-  margin-bottom: 1rem;
-} */
 
 .workdetails {
   padding-left: 1rem;

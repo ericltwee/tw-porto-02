@@ -1,0 +1,26 @@
+.projectcard {
+  padding: 2rem;
+  border: solid 1px #80ff80;
+  border-radius: 15px;
+  margin: 2em;
+  z-index: 1;
+  color: #80ff80;
+  background-color: #141b186b;
+  text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+  .projectcard {
+    font-size: smaller;
+    margin: 0.5rem 2rem;
+    padding: 1rem;
+  }
+  .projectcard p {
+    margin-bottom: 6px;
+    font-weight: 500;
+  }
+  .projectcard h2 {
+    margin-bottom: 6px;
+    font-weight: 500;
+  }
+}
